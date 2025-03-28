@@ -31,10 +31,8 @@ if hippo == "right":
     elif next_step == "cross":
         second_step = input("You just arrived at the gate of the hippo festival! Will you knock or climb?\n").lower()
         if second_step == "climb":
-            print("You just got arrested by the hippo police!")
+            print("You just got arrested by the hippo police. Game over!")
         elif second_step == "knock":
             print("Hurray you just arrived at the hippo festival!!!")
 else:
     print("Oops you fell in the lion den. Game over!")
-
-
